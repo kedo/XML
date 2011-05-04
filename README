@@ -1,0 +1,19 @@
+Class for work on XML-docs
+XML-doc struct:
+Each xml-doc contains one or more elements in form:
+
+	<name_element atr>
+		content
+	</name_element>
+
+		or
+	
+	<name_element atr />
+
+ATR divided symbols space, tab, newline and they look so:
+	
+	name_atr="value"  -- value not contains " and <
+		or
+	name_atr='value'  -- value not contains ' and <
+
+
